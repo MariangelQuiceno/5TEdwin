@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    width: 100vw;
+  }
+  
+  header {
+    height: 10rem;
+    background-image: url('assets/images/banner3.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header h1{
+    text-align: center;
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.706);
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+  }
+
+  .input-container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  input{
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding: 1rem;
+    border: double #ffffff;
+  }
+  
+  main {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #000000;
+  }
+
+
+.card {
+    width: 22rem;
+    height: 10rem;
+    border-radius: 15px;
+    border: double #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    background-color: #000000;
+    color: white;
+  }
+  
+  .card > img {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .card > h2 {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    font-size: 2rem;
+  }
+
